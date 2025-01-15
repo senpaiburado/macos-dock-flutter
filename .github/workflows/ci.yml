@@ -23,7 +23,7 @@ jobs:
         run: flutter pub get
 
       - name: Build for web
-        run: flutter build web --release
+        run: flutter build web --release --base-href="/macos-dock-flutter/"
 
       - name: Run unit tests
         run: flutter test
