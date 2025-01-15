@@ -34,3 +34,4 @@ jobs:
         with:
           personal_token: ${{ secrets.TOKEN }}
           publish_dir: build/web
+          
